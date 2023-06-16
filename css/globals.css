@@ -1,0 +1,35 @@
+
+:root {
+    --white-almost: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --black-almost: hsl(0, 0%, 8%);
+    --min-font-weight: 500;
+    --max-font-weight: 700;
+    --font-size-body: 18px;
+    --arrow-up: url("../assets/images/icon-arrow-up.svg");
+    --arrow-down: url("../assets/images/icon-arrow-down.svg");
+}
+
+@font-face {
+    font-family: "Epilogue";
+    src: url("../assets/fonts/Epilogue/Epilogue-VariableFont_wght.ttf");
+    font-weight: var(--min-font-weight);
+}
+
+* {
+    font-family: "Epilogue";
+    background-color: var(--white-almost);
+    padding: 0px;
+    margin: 0px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color:var(--medium-gray);
+}
+
